@@ -1,0 +1,45 @@
+
+
+% Preamble
+\documentclass[12pt, a4paper]{article}
+
+% Packages
+\usepackage{ctex} % 添加中文字体
+\usepackage{ulem} % 添加可跨行的下划线，对应\uline
+\usepackage[comma, round]{natbib} % 使用参考文献
+% \usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{color}
+\usepackage{geometry}
+\usepackage{indentfirst} % 用于首行缩进
+\usepackage{lineno}  % 输出显示行号
+
+\geometry{left=2.5cm, right=2cm, top=3cm, bottom=2.5cm}
+\setlength{\parindent}{2em} % 设置段落缩进2个字符
+
+\title{\textbf{Tailing Dam Break}}
+\author{Huajun Ming}
+\date{\today}
+
+\linespread{1.5}
+
+% Document
+\begin{document}
+    \linenumbers
+    \maketitle
+
+    Tailings dams are a particular type of dam built to store mill and waste tailings from mining activities. Tailings dam failures result from a variety of causal mechanisms (e.g., flooding, piping, overtopping, liquefaction, or a combination of several) spilling out polluted water and tailings with a variety of textural and physical-chemical properties, which may impact over the downstream socio-economic activities and ecological systems \citep{Rico2008JHM}. \citet{Rico2008JHM} provided a first approximation to establish simple correlations between the outflow run-out distance and tailings ponds geometric parameters (e.g., dam height, outflow volume, impoundment volume) based on data from historic dam failures, although these assessments may contain large uncertainties considering the high standard errors of the regression equations. \\
+    \indent In most tailings dams failure cases, tailings ponds are never emptied and, indeed, only a limited portion of the mine waste is released, which is a major difference in behavior with water-storage dam accidents. In average, one-third of the tailings and water at the decant pond is released during dam failures \citep{Rico2008JHM}. \\
+    \indent \citet{Ancey2009JNFM,Ancey2012AWR} studied the dam break phenomena for HB fluids for a fixed volume of a viscoplastic fluid flooded on the bed and flowed down a slope flume ($6^{\circ}$ - $24^{\circ}$), which flows driven by gravitational forces until these forces are unable to overcome the fluid's yield stress. \citet{Liu2016JNFM} investigated viscoplastic dam breaks using the VOF method in two-dimension. \\
+    \indent \citet{Lakzian2019PCFD} modelled dam break flows of non-Newtonian Herschel-Bulkley (HB) fluid by using the VOF method and high resolution advection schemes. \\
+    \indent When a semi-infinite water body initially \uline{at rest} (静止状态) is released by removal of a vertical barrier, such as in case of a dam failure, the resulting unsteady flow over a dry or mobile bed is termed as \textbf{dam break flows}. \\
+    \indent The study of dam break flow \uline{began with Ritter in 1892} who studied the dam break flows of in viscid fluids in horizontal channels using the shallow water equation. \\
+    \indent Thickend or paste tailings ususally exhibit a viscoplastic non-Newtonian behavior. \textbf{The Herschel-Bulkley (HB) fluid} is a generalised model of a Bingham (non-Newtonian) fluid, three parameters of HB characterise the nonlinear relationship among strain and stress, the consistency $k$, the flow index $n$ and the yield shear stress $\tau_0$. \\
+    \indent The amount of water in the slurry results in a material with different conditions.
+
+    
+
+
+    \bibliographystyle{plainnat}
+    \bibliography{TailingDamBreak}
+\end{document}
